@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-size: 15px;
+    text-align: center;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #68778D;
+    background-color: #D5E1EF;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    color: #1F314F;
+}
+
+a {
+    color: #496a8d;
+}
+
+.card {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+
+    border-radius: 20px;
+    padding: 16px;
+    padding-bottom: 40px;
+    background-color: white;
+    width: fit-content;
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    gap: 16px;
+    width: 288px;
+}
+
+footer {
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+::selection {
+    color: white;
+    background-color: #496a8d;
+}
+
